@@ -16,3 +16,6 @@
 [submodule "bundle/delimitMate"]
 	path = bundle/delimitMate
 	url = git@github.com:Raimondi/delimitMate.git
+[submodule "bundle/mru"]
+	path = bundle/mru
+	url = git@github.com:yegappan/mru.git
