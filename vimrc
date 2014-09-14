@@ -81,7 +81,7 @@ let g:UltiSnipsSnippetDirectories=["UltiSnips"]
 " ###########################################
 " Configure delimitMate plugin
 " ###########################################
-" let delimitMate_expand_cr = 1
+let delimitMate_expand_cr = 1
 
 
 " ###########################################
