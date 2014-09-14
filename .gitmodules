@@ -10,3 +10,6 @@
 [submodule "bundle/matchem"]
 	path = bundle/matchem
 	url = git@github.com:ervandew/matchem.git
+[submodule "bundle/nerdtree"]
+	path = bundle/nerdtree
+	url = git@github.com:scrooloose/nerdtree.git
