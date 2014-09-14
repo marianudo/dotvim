@@ -42,7 +42,7 @@ nmap <leader>sw<down>  :botright new<CR>
 " New splits in different positions
 nmap <leader>s<left>   :leftabove  vnew<CR>
 nmap <leader>s<right>  :rightbelow vnew<CR>
-nmap <leader>s<up>     :leftabove  new<CR>
+
 nmap <leader>s<down>   :rightbelow new<CR>
 
 " Use space to jump down a page (like browsers do)...
@@ -68,21 +68,14 @@ let g:UltiSnipsSnippetDirectories=["UltiSnips"]
 " #############################################
 
 " vertical line indentation
-"let g:indentLine_color_term = 239
-"let g:indentLine_color_gui = '#09AA08'
-"let g:indentLine_char = '│'
-
-
-" ###########################################
-" Fiddling supertab plugin
-" ###########################################
-" source ~/.vim/config/supertab.vim
+let g:indentLine_color_term = 239
+let g:indentLine_color_gui = '#09AA08'
+let g:indentLine_char = '│'
 
 " ###########################################
 " Configure delimitMate plugin
 " ###########################################
 let delimitMate_expand_cr = 1
-
 
 " ###########################################
 " Configure NerdTree plugin
