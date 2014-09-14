@@ -56,12 +56,12 @@ nmap <leader>s<down>   :rightbelow new<CR>
 " ###########################################
 " Ultisnips configuration
 " ###########################################
-"let g:UltiSnipsExpandTrigger="<tab>"
-"let g:UltiSnipsJumpForwardTrigger="<tab>"
-"let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
-"" If you want :UltiSnipsEdit to split your window.
-"let g:UltiSnipsEditSplit="vertical"
-"let g:UltiSnipsSnippetDirectories=["UltiSnips"]
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<tab>"
+let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
+" If you want :UltiSnipsEdit to split your window.
+let g:UltiSnipsEditSplit="vertical"
+let g:UltiSnipsSnippetDirectories=["UltiSnips"]
 
 " #############################################
 " IndentLine configuration
@@ -87,19 +87,19 @@ nmap <leader>s<down>   :rightbelow new<CR>
 " ###########################################
 " Configure NerdTree plugin
 " ###########################################
-" nmap <leader>d :NERDTreeToggle<CR>
+nmap <leader>d :NERDTreeToggle<CR>
 
 " ###########################################
 " Configure ctrlp plugin
 " ###########################################
 " Use <leader>t to open ctrlp
-"let g:ctrlp_map = '<leader>t'
-"" Ignore these directories
-"set wildignore+=*/build/**,*/target/**
-"" disable caching
-"let g:ctrlp_use_caching=0
+let g:ctrlp_map = '<leader>t'
+" Ignore these directories
+set wildignore+=*/build/**,*/target/**
+" disable caching
+let g:ctrlp_use_caching=0
 
 " #####################################
 " MRU plugin configuration
 " #####################################
-"let MRU_Window_Height = 15
+let MRU_Window_Height = 15
