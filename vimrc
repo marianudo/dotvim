@@ -96,3 +96,10 @@ let g:ctrlp_use_caching=0
 " MRU plugin configuration
 " #####################################
 let MRU_Window_Height = 15
+
+
+" #####################################
+" Initial colorScheme setup
+" #####################################
+"colorscheme lucius
+"LuciusBlack
