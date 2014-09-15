@@ -3,7 +3,7 @@ DotVim
 
 Repository to hold my shared vim configuration.
 
-Plugins are installed as a [Pathogen] (https://github.com/tpope/vim-pathogen) bundles inside bundle/ directory.
+Plugins are installed as [Pathogen] (https://github.com/tpope/vim-pathogen) bundles inside bundle/ directory.
 
 They have been configured as git submodules to easy their installation in other machines, and also to facilitate keep them updated.
 
