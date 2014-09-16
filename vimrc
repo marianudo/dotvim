@@ -117,3 +117,5 @@ nnoremap <silent> <leader>p :bp<CR>
 " pastetoggle http://stackoverflow.com/questions/2861627/paste-in-insert-mode
 " set paste
 set pastetoggle=<F4>
+" colorcolumn / print margin
+set colorcolumn=120
