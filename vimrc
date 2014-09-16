@@ -119,3 +119,5 @@ nnoremap <silent> <leader>p :bp<CR>
 set pastetoggle=<F4>
 " colorcolumn / print margin
 set colorcolumn=120
+" Useful mapping to use ctags with ctrlp quickly
+nnoremap <leader>. :CtrlPTag<cr>
