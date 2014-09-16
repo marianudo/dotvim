@@ -107,3 +107,5 @@ let MRU_Window_Height = 15
 set autoread
 " Be smart when using tabs ;)
 set smarttab
+" Remap VIM 0 to first non-blank character
+map 0 ^
