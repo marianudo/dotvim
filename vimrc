@@ -114,3 +114,6 @@ map 0 ^
 nnoremap <silent> <leader>u :BufExplorer<CR>
 nnoremap <silent> <leader>n :bn<CR>
 nnoremap <silent> <leader>p :bp<CR>
+" pastetoggle http://stackoverflow.com/questions/2861627/paste-in-insert-mode
+" set paste
+set pastetoggle=<F4>
