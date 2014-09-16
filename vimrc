@@ -86,7 +86,7 @@ nmap <leader>d :NERDTreeToggle<CR>
 " Configure ctrlp plugin
 " ###########################################
 " Use <leader>t to open ctrlp
-let g:ctrlp_map = '<leader>t'
+let g:ctrlp_map = '<leader>p'
 " Ignore these directories
 set wildignore+=*/build/**,*/target/**
 " disable caching
