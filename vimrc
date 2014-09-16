@@ -105,3 +105,5 @@ let MRU_Window_Height = 15
 
 " Set to auto read when a file is changed from the outside
 set autoread
+" Be smart when using tabs ;)
+set smarttab
