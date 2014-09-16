@@ -46,7 +46,7 @@ nmap <leader>s<right>  :rightbelow vnew<CR>
 nmap <leader>s<down>   :rightbelow new<CR>
 
 " Use space to jump down a page (like browsers do)...
- nnoremap <Space> <PageDown>
+noremap <Space> <PageDown>
 
  " #####################################
  " Custom commands
