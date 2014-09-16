@@ -97,3 +97,8 @@ let g:ctrlp_use_caching=0
 " #####################################
 let MRU_Window_Height = 15
 
+" #####################################
+" Misc configuration
+" #####################################
+" http://stackoverflow.com/questions/1551231/highlight-variable-under-cursor-in-vim-like-in-netbeans
+:autocmd CursorMoved * exe printf('match IncSearch /\V\<%s\>/', escape(expand('<cword>'), '/\'))
