@@ -34,3 +34,6 @@
 [submodule "bundle/zoomwin"]
 	path = bundle/zoomwin
 	url = git@github.com:vim-scripts/ZoomWin.git
+[submodule "bundle/bufexplorer"]
+	path = bundle/bufexplorer
+	url = git@github.com:corntrace/bufexplorer.git
