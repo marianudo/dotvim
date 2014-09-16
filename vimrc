@@ -81,6 +81,7 @@ let g:indentLine_char = '│'
 " Configure NerdTree plugin
 " ###########################################
 nmap <leader>d :NERDTreeToggle<CR>
+map <leader>r :NERDTreeFind<cr>
 
 " ###########################################
 " Configure ctrlp plugin
