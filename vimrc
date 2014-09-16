@@ -110,3 +110,7 @@ set autoread
 set smarttab
 " Remap VIM 0 to first non-blank character
 map 0 ^
+" Buffers - explore/next/previous: leader-u,leader-n, leader-p.
+nnoremap <silent> <leader>u :BufExplorer<CR>
+nnoremap <silent> <leader>n :bn<CR>
+nnoremap <silent> <leader>p :bp<CR>
