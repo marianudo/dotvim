@@ -121,3 +121,5 @@ set pastetoggle=<F4>
 set colorcolumn=120
 " Useful mapping to use ctags with ctrlp quickly
 nnoremap <leader>. :CtrlPTag<cr>
+" Relate md files to markdown type
+autocmd BufNewFile,BufReadPost *.md set filetype=markdown
