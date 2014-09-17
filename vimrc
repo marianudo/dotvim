@@ -97,20 +97,27 @@ let MRU_Window_Height = 15
 
 " Set to auto read when a file is changed from the outside
 set autoread
+
 " Be smart when using tabs ;)
 set smarttab
+
 " Remap VIM 0 to first non-blank character
 map 0 ^
+
 " Buffers - explore/next/previous: leader-u,leader-n, leader-p.
 nnoremap <silent> <leader>u :BufExplorer<CR>
 nnoremap <silent> <leader>n :bn<CR>
 nnoremap <silent> <leader>p :bp<CR>
+
 " pastetoggle http://stackoverflow.com/questions/2861627/paste-in-insert-mode
 " set paste
 set pastetoggle=<F4>
+
 " colorcolumn / print margin
 set colorcolumn=120
+
 " Useful mapping to use ctags with ctrlp quickly
 nnoremap <leader>. :CtrlPTag<cr>
+
 " Relate md files to markdown type
 autocmd BufNewFile,BufReadPost *.md set filetype=markdown
