@@ -64,11 +64,6 @@ let g:UltiSnipsEditSplit="vertical"
 let g:UltiSnipsSnippetDirectories=["UltiSnips"]
 
 " ###########################################
-" Configure delimitMate plugin
-" ###########################################
-" let delimitMate_expand_cr = 1
-
-" ###########################################
 " Configure NerdTree plugin
 " ###########################################
 nmap <leader>d :NERDTreeToggle<CR>
