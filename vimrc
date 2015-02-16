@@ -19,6 +19,9 @@ set tabstop=4 shiftwidth=4 expandtab
 " Shortcut to save current buffer and close it
 :command Wd write|bdelete
 
+" Groovy files syntax coloring
+au BufNewFile,BufRead *.groovy  setf groovy 
+
 " Set current directory to the currently editing file
 set autochdir
 
