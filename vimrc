@@ -54,6 +54,9 @@ nmap <leader>s<down>   :rightbelow new<CR>
 " Use space to jump down a page (like browsers do)...
 noremap <Space> <PageDown>
 
+" Remove trailing spaces with F5
+:nnoremap <silent> <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar>:nohl<CR>
+
  " #####################################
  " Custom commands
  " #####################################
