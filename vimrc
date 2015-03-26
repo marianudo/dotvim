@@ -57,10 +57,13 @@ noremap <Space> <PageDown>
 " Remove trailing spaces with F5
 :nnoremap <silent> <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar>:nohl<CR>
 
+" Automatically remove trailing whitespaces when saving files of specific
+" types
+autocmd FileType c,cpp,java,php,scala autocmd BufWritePre <buffer> :%s/\s\+$//e
  " #####################################
  " Custom commands
  " #####################################
- :command Ccd cd %:p:h
+:command Ccd cd %:p:h
 
 " ###########################################
 " Ultisnips configuration
