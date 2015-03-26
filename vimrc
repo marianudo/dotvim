@@ -81,16 +81,6 @@ let g:UltiSnipsSnippetDirectories=["UltiSnips"]
 nmap <leader>d :NERDTreeToggle<CR>
 map <leader>r :NERDTreeFind<cr>
 
-" ###########################################
-" Configure ctrlp plugin
-" ###########################################
-" Use <leader>t to open ctrlp
-let g:ctrlp_map = '<leader>p'
-" Ignore these directories
-set wildignore+=*/build/**,*/target/**
-" disable caching
-let g:ctrlp_use_caching=0
-
 " #####################################
 " MRU plugin configuration
 " #####################################
