@@ -40,3 +40,6 @@
 [submodule "bundle/matchem"]
 	path = bundle/matchem
 	url = git@github.com:ervandew/matchem.git
+[submodule "bundle/vim-rooter"]
+	path = bundle/vim-rooter
+	url = git@github.com:airblade/vim-rooter.git
