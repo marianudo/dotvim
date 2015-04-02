@@ -26,7 +26,8 @@ set tabstop=4 shiftwidth=4 expandtab
 au BufNewFile,BufRead *.groovy  setf groovy 
 
 " Set current directory to the currently editing file
-set autochdir
+" Commented out due to the installation of the vim-rooter plugin
+" set autochdir
 
 " ################################################
 " Useful mappings
