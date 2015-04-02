@@ -86,7 +86,7 @@ map <leader>r :NERDTreeFind<cr>
 " Configure ctrlp plugin
 " ###########################################
 " Use <leader>t to open ctrlp
-let g:ctrlp_map = '<leader>p'
+" let g:ctrlp_map = '<leader>p'
 " Ignore these directories
 set wildignore+=*/build/**,*/target/**
 " disable caching
@@ -113,9 +113,9 @@ set smarttab
 " map 0 ^
 
 " Buffers - explore/next/previous: leader-u,leader-n, leader-p.
-nnoremap <silent> <leader>u :BufExplorer<CR>
-nnoremap <silent> <leader>n :bn<CR>
-nnoremap <silent> <leader>p :bp<CR>
+" nnoremap <silent> <leader>u :BufExplorer<CR>
+" nnoremap <silent> <leader>n :bn<CR>
+" nnoremap <silent> <leader>p :bp<CR>
 
 " pastetoggle http://stackoverflow.com/questions/2861627/paste-in-insert-mode
 " set paste
@@ -129,6 +129,9 @@ nnoremap <leader>. :CtrlPTag<cr>
 
 " Relate md files to markdown type
 autocmd BufNewFile,BufReadPost *.md set filetype=markdown
+
+" Map fuzzyfinder_textmate
+" map <Leader>t :FuzzyFinderTextMate<ENTER>
 
 " Enable XML formatting
 function! DoPrettyXML()
