@@ -27,7 +27,7 @@
 	url = git@github.com:vim-scripts/ZoomWin.git
 [submodule "bundle/bufexplorer"]
 	path = bundle/bufexplorer
-	url = git@github.com:corntrace/bufexplorer.git
+	url = git@github.com:jlanzarotta/bufexplorer.git
 [submodule "bundle/vim-gitgutter"]
 	path = bundle/vim-gitgutter
 	url = git@github.com:airblade/vim-gitgutter.git
