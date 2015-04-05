@@ -41,16 +41,16 @@ map <C-M> :MRU
 map <C-Space> <C-X> <C-U>
 
 " New window in different positions
-nmap <leader>sw<left>  :topleft  vnew<CR>
-nmap <leader>sw<right> :botright vnew<CR>
-nmap <leader>sw<up>    :topleft  new<CR>
-nmap <leader>sw<down>  :botright new<CR>
+" nmap <leader>sw<left>  :topleft  vnew<CR>
+" nmap <leader>sw<right> :botright vnew<CR>
+" nmap <leader>sw<up>    :topleft  new<CR>
+" nmap <leader>sw<down>  :botright new<CR>
 
 " New splits in different positions
-nmap <leader>s<left>   :leftabove  vnew<CR>
-nmap <leader>s<right>  :rightbelow vnew<CR>
+" nmap <leader>s<left>   :leftabove  vnew<CR>
+" nmap <leader>s<right>  :rightbelow vnew<CR>
 
-nmap <leader>s<down>   :rightbelow new<CR>
+" nmap <leader>s<down>   :rightbelow new<CR>
 
 " Use space to jump down a page (like browsers do)...
 noremap <Space> <PageDown>
@@ -61,6 +61,7 @@ noremap <Space> <PageDown>
 " Automatically remove trailing whitespaces when saving files of specific
 " types
 autocmd FileType c,cpp,java,php,scala autocmd BufWritePre <buffer> :%s/\s\+$//e
+
  " #####################################
  " Custom commands
  " #####################################
