@@ -11,6 +11,7 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 set relativenumber
+set number
 let mapleader = ","
 
 " Replace tabs with spaces (4)
