@@ -34,12 +34,12 @@ au BufNewFile,BufRead *.groovy  setf groovy
 " Useful mappings
 " ################################################
 " Better split switching (Ctrl-j, Ctrl-k, Ctrl-h, Ctrl-l)
-map <C-j> <C-W>j
-map <C-K> <C-W>k
-map <C-H> <C-W>h
-map <C-L> <C-W>l
-map <C-M> :MRU
-map <C-Space> <C-X> <C-U>
+" map <C-j> <C-W>j
+" map <C-K> <C-W>k
+" map <C-H> <C-W>h
+" map <C-L> <C-W>l
+" map <C-M> :MRU
+" map <C-Space> <C-X> <C-U>
 
 " New window in different positions
 " nmap <leader>sw<left>  :topleft  vnew<CR>
@@ -66,7 +66,8 @@ autocmd FileType c,cpp,java,php,scala autocmd BufWritePre <buffer> :%s/\s\+$//e
  " #####################################
  " Custom commands
  " #####################################
-:command Ccd cd %:p:h
+ " Commented out because I don't understand it
+" :command Ccd cd %:p:h
 
 " ###########################################
 " Ultisnips configuration
@@ -75,7 +76,7 @@ let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<tab>"
 let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
 " If you want :UltiSnipsEdit to split your window.
-let g:UltiSnipsEditSplit="vertical"
+" let g:UltiSnipsEditSplit="vertical"
 let g:UltiSnipsSnippetDirectories=["UltiSnips"]
 
 " ###########################################
@@ -86,13 +87,14 @@ map <leader>r :NERDTreeFind<cr>
 
 " ###########################################
 " Configure ctrlp plugin
+" Commented out due to desinstallation of the plugin
 " ###########################################
 " Use <leader>t to open ctrlp
-let g:ctrlp_map = '<leader>p'
+" let g:ctrlp_map = '<leader>p'
 " Ignore these directories
-set wildignore+=*/build/**,*/target/**
+" set wildignore+=*/build/**,*/target/**
 " disable caching
-let g:ctrlp_use_caching=0
+" let g:ctrlp_use_caching=0
 
 " #####################################
 " MRU plugin configuration
