@@ -16,18 +16,12 @@
 [submodule "bundle/supertab"]
 	path = bundle/supertab
 	url = git@github.com:ervandew/supertab.git
-[submodule "bundle/bufexplorer"]
-	path = bundle/bufexplorer
-	url = git@github.com:jlanzarotta/bufexplorer.git
 [submodule "bundle/vim-airline"]
 	path = bundle/vim-airline
 	url = git@github.com:bling/vim-airline.git
 [submodule "bundle/vim-scala"]
 	path = bundle/vim-scala
 	url = git@github.com:derekwyatt/vim-scala.git
-[submodule "bundle/vim-rooter"]
-	path = bundle/vim-rooter
-	url = git@github.com:airblade/vim-rooter.git
 [submodule "bundle/matchem"]
 	path = bundle/matchem
 	url = git@github.com:ervandew/matchem.git
