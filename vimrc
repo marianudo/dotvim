@@ -17,6 +17,11 @@ let mapleader = ","
 " Replace tabs with spaces (4)
 set tabstop=4 shiftwidth=4 expandtab
 
+" Configure tabs
+set tabstop=4
+set shiftwidth=4
+set expandtab
+
 " Shortcut to save current buffer and close it
 :command Wd write|bdelete
 
