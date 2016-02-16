@@ -168,3 +168,6 @@ function! DoPrettyXML()
   exe "set ft=" . l:origft
 endfunction
 command! PrettyXML call DoPrettyXML()
+
+" Please check my spelling while typing (american english)
+set spell spelllang=en_us
