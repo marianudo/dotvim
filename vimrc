@@ -107,6 +107,18 @@ map <leader>r :NERDTreeFind<cr>
 let MRU_Window_Height = 15
 
 " #####################################
+" Syntastic Plugin Configuration
+" #####################################
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+
+" #####################################
 " Misc configuration
 " #####################################
 " http://stackoverflow.com/questions/1551231/highlight-variable-under-cursor-in-vim-like-in-netbeans
