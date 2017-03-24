@@ -171,3 +171,6 @@ command! PrettyXML call DoPrettyXML()
 
 " Please check my spelling while typing (american english)
 set spell spelllang=en_us
+
+" Allow me to toggle on and off spell checking easily
+map <F5> :setlocal spell! spelllang=en_us<CR>
