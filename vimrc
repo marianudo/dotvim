@@ -39,12 +39,12 @@ au BufNewFile,BufRead *.groovy  setf groovy
 " Useful mappings
 " ################################################
 " Better split switching (Ctrl-j, Ctrl-k, Ctrl-h, Ctrl-l)
-" map <C-j> <C-W>j
-" map <C-K> <C-W>k
-" map <C-H> <C-W>h
-" map <C-L> <C-W>l
-" map <C-M> :MRU
-" map <C-Space> <C-X> <C-U>
+map <C-j> <C-W>j
+map <C-K> <C-W>k
+map <C-H> <C-W>h
+map <C-L> <C-W>l
+map <C-M> :MRU
+map <C-Space> <C-X> <C-U>
 
 " New window in different positions
 " nmap <leader>sw<left>  :topleft  vnew<CR>
@@ -53,13 +53,10 @@ au BufNewFile,BufRead *.groovy  setf groovy
 " nmap <leader>sw<down>  :botright new<CR>
 
 " New splits in different positions
-" nmap <leader>s<left>   :leftabove  vnew<CR>
-" nmap <leader>s<right>  :rightbelow vnew<CR>
+nmap <leader>s<left>   :leftabove  vnew<CR>
+nmap <leader>s<right>  :rightbelow vnew<CR>
 
-" nmap <leader>s<down>   :rightbelow new<CR>
-
-" Use space to jump down a page (like browsers do)...
-noremap <Space> <PageDown>
+nmap <leader>s<down>   :rightbelow new<CR>
 
 " Remove trailing spaces with F5
 :nnoremap <silent> <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar>:nohl<CR>
