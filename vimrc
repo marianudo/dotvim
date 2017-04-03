@@ -72,31 +72,10 @@ autocmd FileType c,cpp,java,php,scala autocmd BufWritePre <buffer> :%s/\s\+$//e
 " :command Ccd cd %:p:h
 
 " ###########################################
-" Ultisnips configuration
-" ###########################################
-let g:UltiSnipsExpandTrigger="<tab>"
-let g:UltiSnipsJumpForwardTrigger="<tab>"
-let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
-" If you want :UltiSnipsEdit to split your window.
-" let g:UltiSnipsEditSplit="vertical"
-let g:UltiSnipsSnippetDirectories=["UltiSnips"]
-
-" ###########################################
 " Configure NerdTree plugin
 " ###########################################
 nmap <leader>d :NERDTreeToggle<CR>
 map <leader>r :NERDTreeFind<cr>
-
-" ###########################################
-" Configure ctrlp plugin
-" Commented out due to desinstallation of the plugin
-" ###########################################
-" Use <leader>t to open ctrlp
-" let g:ctrlp_map = '<leader>p'
-" Ignore these directories
-" set wildignore+=*/build/**,*/target/**
-" disable caching
-" let g:ctrlp_use_caching=0
 
 " #####################################
 " MRU plugin configuration
