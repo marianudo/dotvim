@@ -12,7 +12,7 @@ syntax on
 filetype plugin indent on
 set relativenumber
 set number
-let mapleader = ","
+let mapleader = " "
 
 " Replace tabs with spaces (4)
 set tabstop=4 shiftwidth=4 expandtab
