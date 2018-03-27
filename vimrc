@@ -15,7 +15,7 @@ set number
 let mapleader = " "
 
 " Replace tabs with spaces (4)
-set tabstop=4 shiftwidth=4 expandtab
+set tabstop=2 shiftwidth=2 expandtab
 
 " Configure tabs
 set tabstop=4
