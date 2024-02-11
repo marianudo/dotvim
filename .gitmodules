@@ -1,9 +1,3 @@
-[submodule "bundle/nerdtree"]
-	path = bundle/nerdtree
-	url = git@github.com:scrooloose/nerdtree.git
-[submodule "bundle/mru"]
-	path = bundle/mru
-	url = git@github.com:yegappan/mru.git
 [submodule "bundle/vim-lucius"]
 	path = bundle/vim-lucius
 	url = git@github.com:jonathanfilip/vim-lucius.git
@@ -13,9 +7,3 @@
 [submodule "bundle/vim-airline"]
 	path = bundle/vim-airline
 	url = git@github.com:bling/vim-airline.git
-[submodule "bundle/vim-scala"]
-	path = bundle/vim-scala
-	url = git@github.com:derekwyatt/vim-scala.git
-[submodule "bundle/matchem"]
-	path = bundle/matchem
-	url = git@github.com:ervandew/matchem.git

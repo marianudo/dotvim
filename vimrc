@@ -13,6 +13,7 @@ filetype plugin indent on
 set relativenumber
 set number
 let mapleader = " "
+colorscheme slate
 
 " Replace tabs with spaces (4)
 set tabstop=2 shiftwidth=2 expandtab
@@ -22,71 +23,9 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 
-" Shortcut to save current buffer and close it
-:command Wd write|bdelete
-
-" To close a buffer fast
-:command D bdelete
-
-" Groovy files syntax coloring
-au BufNewFile,BufRead *.groovy  setf groovy 
-
-" Set current directory to the currently editing file
-" Commented out due to the installation of the vim-rooter plugin
-" set autochdir
-
-" ################################################
-" Useful mappings
-" ################################################
-" Better split switching (Ctrl-j, Ctrl-k, Ctrl-h, Ctrl-l)
-map <C-j> <C-W>j
-map <C-K> <C-W>k
-map <C-H> <C-W>h
-map <C-L> <C-W>l
-map <C-M> :MRU
-map <C-Space> <C-X> <C-U>
-
-" New window in different positions
-nmap <leader>sw<left>  :topleft  vnew<CR>
-nmap <leader>sw<right> :botright vnew<CR>
-nmap <leader>sw<up>    :topleft  new<CR>
-nmap <leader>sw<down>  :botright new<CR>
-
-" New splits in different positions
-nmap <leader>s<left>   :leftabove  vnew<CR>
-nmap <leader>s<right>  :rightbelow vnew<CR>
-
-nmap <leader>s<down>   :rightbelow new<CR>
-
-" Remove trailing spaces with F5
-:nnoremap <silent> <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar>:nohl<CR>
-
 " Automatically remove trailing whitespaces when saving files of specific
 " types
 autocmd FileType c,cpp,java,php,scala autocmd BufWritePre <buffer> :%s/\s\+$//e
-
- " #####################################
- " Custom commands
- " #####################################
- " Commented out because I don't understand it
-" :command Ccd cd %:p:h
-
-" ###########################################
-" Configure NerdTree plugin
-" ###########################################
-nmap <leader>d :NERDTreeToggle<CR>
-map <leader>r :NERDTreeFind<cr>
-
-" #####################################
-" MRU plugin configuration
-" #####################################
-let MRU_Window_Height = 15
-
-" #####################################
-" Misc configuration
-" #####################################
-" http://stackoverflow.com/questions/1551231/highlight-variable-under-cursor-in-vim-like-in-netbeans
-" :autocmd CursorMoved * exe printf('match IncSearch /\V\<%s\>/', escape(expand('<cword>'), '/\'))
 
 " Set to auto read when a file is changed from the outside
 set autoread
@@ -94,23 +33,10 @@ set autoread
 " Be smart when using tabs ;)
 set smarttab
 
-" Remap VIM 0 to first non-blank character
-" map 0 ^
-
-" Buffers - explore/next/previous: leader-u,leader-n, leader-p.
-nnoremap <silent> <leader>u :BufExplorer<CR>
-nnoremap <silent> <leader>n :bn<CR>
-nnoremap <silent> <leader>p :bp<CR>
-
-" pastetoggle http://stackoverflow.com/questions/2861627/paste-in-insert-mode
-" set paste
-set pastetoggle=<F4>
-
 " colorcolumn / print margin
-set colorcolumn=120
-
-" Useful mapping to use ctags with ctrlp quickly
-nnoremap <leader>. :CtrlPTag<cr>
+set colorcolumn=50,72
+set textwidth=72
+set fo+=t
 
 " Relate md files to markdown type
 autocmd BufNewFile,BufReadPost *.md set filetype=markdown
